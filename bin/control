@@ -71,7 +71,7 @@ function stop {
     fi
   fi
 }
-}
+
 function status {
   if is_running; then
     client_result "MySQL is running" 
